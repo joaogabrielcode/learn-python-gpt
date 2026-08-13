@@ -39,3 +39,14 @@
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
+dado = "Python"
+print(dado, type(dado))
+
+dado = 30
+print(dado, type(dado))
+
+dado = 1.75
+print(dado, type(dado))
+
+dado = True
+print(dado, type(dado))
