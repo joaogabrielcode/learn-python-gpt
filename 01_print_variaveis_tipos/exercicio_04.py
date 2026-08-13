@@ -37,3 +37,15 @@
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
+
+cidade = "Natal"
+cidade2 = "Recife"
+temp = ""
+
+print("Antes: ", cidade, cidade2)
+
+temp = cidade2
+cidade2 = cidade
+cidade = temp
+
+print("Depois: ", cidade, cidade2)
