@@ -5,7 +5,8 @@
 # Enunciado:
 #
 # Leia participantes de dois eventos e informe quem foi aos dois,
-# somente ao primeiro e somente ao segundo.
+# somente ao primeiro e somente ao segundo. Ordene alfabeticamente
+# cada grupo e mostre "nenhum" quando um grupo estiver vazio.
 #
 # Regras:
 #
@@ -27,14 +28,12 @@
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
-# - sets
-# - add()
-# - discard()
-# - operações de conjuntos
-# - for
+# - interseção de conjuntos
+# - diferença de conjuntos
+# - condicionais
+# - sorted()
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

@@ -4,8 +4,9 @@
 #
 # Enunciado:
 #
-# Use datetime para obter uma data e exibi-la no formato
-# brasileiro.
+# Leia uma data no formato ISO (ano-mês-dia), converta-a para um
+# objeto date com datetime e exiba-a no formato brasileiro. Não
+# reorganize o texto apenas com fatiamento.
 #
 # Regras:
 #
@@ -25,13 +26,11 @@
 # CONCEITOS PRATICADOS:
 #
 # - datetime
-# - pathlib
-# - collections
-# - itertools
-# - json
+# - date
+# - strptime()
+# - strftime()
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

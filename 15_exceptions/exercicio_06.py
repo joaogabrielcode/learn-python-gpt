@@ -4,9 +4,10 @@
 #
 # Enunciado:
 #
-# Leia um arquivo indicado pelo usuário de forma conceitual,
-# usando else para sucesso e finally para registrar o fim da
-# tentativa.
+# Leia um numerador e um denominador. No try, converta e divida;
+# trate entrada inválida e divisão por zero em excepts distintos.
+# Use else para mostrar o resultado somente quando não houver erro
+# e finally para sempre informar o encerramento da tentativa.
 #
 # Regras:
 #
@@ -15,12 +16,13 @@
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# dados.txt
+# 10
+# 2
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Leitura concluída.
+# Resultado: 5.0
 # Tentativa finalizada.
 #
 # ------------------------------------------------------------
@@ -36,4 +38,3 @@
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

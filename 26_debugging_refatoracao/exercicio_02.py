@@ -4,8 +4,15 @@
 #
 # Enunciado:
 #
-# Analise um traceback causado por operação entre tipos
-# incompatíveis e ajuste a conversão no ponto correto.
+# Execute o trecho abaixo com a entrada de exemplo. Use o traceback
+# para identificar os dois tipos envolvidos no TypeError e corrija
+# a conversão no ponto em que o dado entra no programa.
+#
+# CÓDIGO PARA INVESTIGAR:
+#
+# idade = input("Idade: ")
+# idade_no_proximo_ano = idade + 1
+# print(idade_no_proximo_ano)
 #
 # Regras:
 #
@@ -14,24 +21,22 @@
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# idade como texto + 1
+# 26
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Idade futura calculada.
+# 27
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - traceback
-# - debugging
-# - refatoração
-# - legibilidade
-# - testes de regressão
+# - TypeError
+# - input()
+# - conversão de tipos
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

@@ -4,9 +4,9 @@
 #
 # Enunciado:
 #
-# Leia uma senha e verifique tamanho mínimo, presença de
-# maiúscula, minúscula, dígito e caractere especial; liste
-# requisitos ausentes.
+# Leia uma senha e verifique se ela possui pelo menos 8 caracteres,
+# uma letra maiúscula, uma minúscula, um dígito e um caractere que
+# não seja letra nem dígito. Se falhar, liste cada requisito ausente.
 #
 # Regras:
 #
@@ -36,4 +36,3 @@
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

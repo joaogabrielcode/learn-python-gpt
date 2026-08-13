@@ -1,29 +1,37 @@
 # ============================================================
-# EXERCÍCIO 10 — Planejamento de viagem
+# EXERCÍCIO 10 — Ficha técnica interativa
 # ============================================================
 #
 # Enunciado:
 #
-# Leia distância, consumo do veículo e preço do combustível;
-# calcule litros necessários e custo estimado.
+# Construa uma ficha técnica solicitando nome do equipamento,
+# número de série, peso decimal, quantidade inteira e uma
+# resposta textual sobre disponibilidade. Preserve zeros
+# iniciais do número de série e converta apenas os campos que
+# representam números usados como números.
 #
 # Regras:
 #
-# Organize a solução em etapas e trate entradas incompatíveis com
-# as regras.
+# Escolha conscientemente o tipo de cada dado antes de montar a
+# saída.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# 300
-# 15
-# 6
+# Notebook
+# 00124
+# 1.35
+# 4
+# sim
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Litros: 20.0
-# Custo: 120.0
+# Equipamento: Notebook
+# Série: 00124
+# Peso: 1.35 kg
+# Quantidade: 4
+# Disponibilidade informada: sim
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
@@ -31,11 +39,11 @@
 # - input()
 # - int()
 # - float()
-# - str()
-# - conversão de tipos
+# - str
+# - escolha de conversões
+# - preservação de formato
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

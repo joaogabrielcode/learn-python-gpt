@@ -1,15 +1,17 @@
 # ============================================================
-# EXERCÍCIO 07 — Resumo financeiro simples
+# EXERCÍCIO 07 — Placar antes e depois
 # ============================================================
 #
 # Enunciado:
 #
-# Armazene três valores de despesas, calcule o total e exiba um
-# resumo com os valores e a soma.
+# Crie variáveis para os nomes de dois jogadores e suas
+# pontuações iniciais. Mostre o placar, atribua pontuações
+# finais diferentes e mostre novamente. Use apenas valores
+# definidos no próprio programa.
 #
 # Regras:
 #
-# Combine este assunto com os fundamentos dos módulos anteriores.
+# Observe como a escolha do tipo altera a representação do dado.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
@@ -19,21 +21,25 @@
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Despesas: 35.0, 20.0, 45.0
-# Total: 100.0
+# PLACAR INICIAL
+# Ana: 0
+# Caio: 0
+#
+# PLACAR FINAL
+# Ana: 3
+# Caio: 1
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - print()
 # - variáveis
+# - atribuição
+# - reatribuição
 # - str
 # - int
-# - float
-# - bool
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

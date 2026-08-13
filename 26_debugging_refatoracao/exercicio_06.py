@@ -4,8 +4,10 @@
 #
 # Enunciado:
 #
-# Refatore uma função longa de relatório em funções menores,
-# mantendo exatamente as entradas e saídas existentes.
+# Escreva inicialmente uma função que valida vendas, calcula total,
+# média, maior venda e formata o relatório. Cubra o comportamento
+# com testes. Em seguida, refatore-a separando validação, cálculo e
+# formatação, sem mudar a assinatura pública nem a saída.
 #
 # Regras:
 #
@@ -14,24 +16,24 @@
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# vendas do mês
+# [100.0, 80.0, 120.0]
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# mesmo relatório antes e depois
+# Total: 300.0
+# Média: 100.0
+# Maior: 120.0
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
-# - traceback
-# - debugging
 # - refatoração
-# - legibilidade
-# - testes de regressão
+# - funções pequenas
+# - separação de responsabilidades
+# - testes de caracterização
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

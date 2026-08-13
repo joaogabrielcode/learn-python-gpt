@@ -1,39 +1,42 @@
 # ============================================================
-# EXERCÍCIO 04 — Cadastro básico
+# EXERCÍCIO 04 — Cadastro com conversões
 # ============================================================
 #
 # Enunciado:
 #
-# Leia nome, cidade e idade e apresente os dados em uma única
-# ficha organizada.
+# Solicite nome, idade e altura. Converta cada entrada para o
+# tipo adequado e apresente os valores com o tipo armazenado em
+# cada variável.
 #
 # Regras:
 #
-# Considere os dados e regras descritos, inclusive os limites.
+# Combine entradas e conversões sem antecipar operadores ou
+# decisões.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# Caio
-# Belém
-# 28
+# Ana
+# 25
+# 1.68
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Nome: Caio | Cidade: Belém | Idade: 28
+# Nome: Ana — <class 'str'>
+# Idade: 25 — <class 'int'>
+# Altura: 1.68 — <class 'float'>
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - input()
+# - str
 # - int()
 # - float()
-# - str()
-# - conversão de tipos
+# - type()
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

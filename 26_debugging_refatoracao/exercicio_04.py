@@ -4,8 +4,16 @@
 #
 # Enunciado:
 #
-# Inspecione um while que não termina, identifique a variável de
-# controle e faça a menor correção necessária.
+# O trecho abaixo repete indefinidamente. Antes de executá-lo,
+# localize a condição, a variável de controle e a atualização que
+# deveria aproximar o programa do término. Corrija somente o ponto
+# responsável e confirme que 1 a 5 aparecem uma vez cada.
+#
+# CÓDIGO PARA INVESTIGAR:
+#
+# contador = 1
+# while contador <= 5:
+#     print(contador)
 #
 # Regras:
 #
@@ -24,14 +32,12 @@
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
-# - traceback
-# - debugging
-# - refatoração
-# - legibilidade
-# - testes de regressão
+# - loop infinito
+# - variável de controle
+# - condição de parada
+# - debugging preventivo
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

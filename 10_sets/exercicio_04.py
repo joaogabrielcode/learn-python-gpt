@@ -4,8 +4,9 @@
 #
 # Enunciado:
 #
-# Leia os hobbies de duas pessoas e apresente somente os
-# interesses que elas têm em comum.
+# Leia os hobbies de duas pessoas e apresente somente os interesses
+# que elas têm em comum, em ordem alfabética. Se não houver nenhum,
+# mostre "Nenhum interesse em comum".
 #
 # Regras:
 #
@@ -26,13 +27,11 @@
 # CONCEITOS PRATICADOS:
 #
 # - sets
-# - add()
-# - discard()
-# - operações de conjuntos
-# - for
+# - interseção de conjuntos
+# - conjunto vazio
+# - sorted()
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

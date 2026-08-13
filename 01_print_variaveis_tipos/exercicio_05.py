@@ -1,15 +1,18 @@
 # ============================================================
-# EXERCÍCIO 05 — Dados de um produto
+# EXERCÍCIO 05 — Estado de uma entrega
 # ============================================================
 #
 # Enunciado:
 #
-# Represente nome, preço, quantidade e disponibilidade de um
-# produto em variáveis e exiba uma ficha organizada.
+# Crie variáveis para código do pedido, nome do cliente, status
+# da entrega e se o pagamento foi confirmado. Exiba o estado
+# inicial. Depois, atribua novos valores ao status e à
+# confirmação de pagamento e exiba o estado atualizado.
 #
 # Regras:
 #
-# Considere os dados e regras descritos, inclusive os limites.
+# Combine entradas e conversões sem antecipar operadores ou
+# decisões.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
@@ -19,23 +22,26 @@
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Produto: Caderno
-# Preço: 18.5
-# Quantidade: 3
-# Disponível: True
+# Pedido: PED-104
+# Cliente: Lia
+# Status: aguardando pagamento
+# Pagamento confirmado: False
+#
+# Estado atualizado
+# Status: preparando envio
+# Pagamento confirmado: True
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - print()
 # - variáveis
+# - atribuição
+# - reatribuição
 # - str
-# - int
-# - float
 # - bool
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

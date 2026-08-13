@@ -1,26 +1,31 @@
 # ============================================================
-# EXERCÍCIO 06 — Conta dividida
+# EXERCÍCIO 06 — Quantidade e preço
 # ============================================================
 #
 # Enunciado:
 #
-# Leia o valor de uma conta e a quantidade de pessoas; informe
-# quanto cada pessoa deve pagar.
+# Solicite o nome de um produto, sua quantidade inteira e seu
+# preço decimal. Converta somente os campos numéricos e
+# apresente uma ficha com os três tipos armazenados.
 #
 # Regras:
 #
-# Considere os dados e regras descritos, inclusive os limites.
+# Combine entradas e conversões sem antecipar operadores ou
+# decisões.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# 120
-# 4
+# Caderno
+# 3
+# 18.5
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Valor por pessoa: 30.0
+# Produto: Caderno — <class 'str'>
+# Quantidade: 3 — <class 'int'>
+# Preço: 18.5 — <class 'float'>
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
@@ -28,11 +33,10 @@
 # - input()
 # - int()
 # - float()
-# - str()
-# - conversão de tipos
+# - type()
+# - múltiplas entradas
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

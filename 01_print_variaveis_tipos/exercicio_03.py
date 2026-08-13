@@ -27,8 +27,8 @@
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
-# - print()
 # - variáveis
+# - type()
 # - str
 # - int
 # - float

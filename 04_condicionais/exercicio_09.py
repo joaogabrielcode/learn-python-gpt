@@ -4,9 +4,9 @@
 #
 # Enunciado:
 #
-# Leia horas estacionadas e calcule a cobrança por faixas: 8 reais
-# até 2 horas, 3 reais por hora adicional até 5 e 2 reais depois
-# disso.
+# Leia a quantidade inteira de horas estacionadas. Cobre 8 reais
+# pelas primeiras 2 horas. Da 3ª à 5ª hora, some 3 reais por hora.
+# A partir da 6ª, some 2 reais por hora. Rejeite valores negativos.
 #
 # Regras:
 #
@@ -20,7 +20,7 @@
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Total: 22.0
+# Total: 21.0
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
@@ -35,4 +35,3 @@
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

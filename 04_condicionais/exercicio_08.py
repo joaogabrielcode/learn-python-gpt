@@ -4,8 +4,9 @@
 #
 # Enunciado:
 #
-# Leia dois números e uma operação entre +, -, * e /; mostre o
-# resultado ou avise se a operação for inválida.
+# Leia dois números e uma operação entre +, -, * e /. Mostre o
+# resultado, rejeite símbolos desconhecidos e impeça divisão por
+# zero com uma mensagem específica.
 #
 # Regras:
 #
@@ -36,4 +37,3 @@
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

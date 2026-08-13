@@ -1,15 +1,16 @@
 # ============================================================
-# EXERCÍCIO 08 — Cartão de apresentação
+# EXERCÍCIO 08 — Separadores de data e hora
 # ============================================================
 #
 # Enunciado:
 #
-# Monte uma apresentação em várias linhas usando variáveis para
-# nome, profissão desejada, linguagem e meta de estudo.
+# Crie variáveis inteiras para dia, mês, ano, hora e minuto. Use os
+# argumentos sep e end de print() para montar uma data e uma hora
+# na mesma linha, sem transformar manualmente os números em texto.
 #
 # Regras:
 #
-# Combine este assunto com os fundamentos dos módulos anteriores.
+# Observe como a escolha do tipo altera a representação do dado.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
@@ -19,20 +20,16 @@
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Nome: Leo
-# Objetivo: Desenvolvedor
-# Linguagem: Python
-# Meta semanal: 5 horas
+# Data e hora: 12/8/2026 — 9:30
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - print()
-# - variáveis
-# - str
-# - int
-# - float
-# - bool
+# - sep
+# - end
+# - variáveis inteiras
+# - controle da saída
 #
 # ============================================================
 

@@ -4,9 +4,11 @@
 #
 # Enunciado:
 #
-# Diante de um pequeno sistema com falhas intermitentes, reproduza
-# os problemas, leia tracebacks, crie testes de regressão e
-# refatore com segurança.
+# Investigue um processador de pedidos com três defeitos: falha ao
+# converter quantidade inválida, remove itens enquanto percorre a
+# mesma lista e sobrescreve o arquivo a cada item salvo. Reproduza
+# cada falha separadamente, corrija uma por vez e mantenha um teste
+# de regressão para cada comportamento recuperado.
 #
 # Regras:
 #
@@ -16,24 +18,29 @@
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# dados válidos e inválidos
+# Livro,2,40.0
+# Caneta,zero,5.0
+# item cancelado
+# três itens para salvar
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# falhas corrigidas e testes aprovados
+# Linha inválida registrada.
+# Itens cancelados removidos.
+# Todos os itens válidos recarregados.
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
+# - investigação sistemática
 # - traceback
-# - debugging
-# - refatoração
-# - legibilidade
+# - mutação durante iteração
+# - persistência
 # - testes de regressão
+# - refatoração segura
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

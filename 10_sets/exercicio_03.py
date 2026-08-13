@@ -4,8 +4,9 @@
 #
 # Enunciado:
 #
-# Leia os nomes de duas turmas e mostre o conjunto de todos os
-# alunos, sem duplicações.
+# Leia os nomes de duas turmas e mostre todos os alunos sem
+# duplicações. Apresente os nomes em ordem alfabética para que a
+# saída não dependa da ordem interna do conjunto.
 #
 # Regras:
 #
@@ -25,14 +26,12 @@
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
-# - sets
-# - add()
-# - discard()
-# - operações de conjuntos
-# - for
+# - set()
+# - união de conjuntos
+# - remoção de duplicados
+# - sorted()
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

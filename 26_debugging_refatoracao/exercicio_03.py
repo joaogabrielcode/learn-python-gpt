@@ -4,8 +4,14 @@
 #
 # Enunciado:
 #
-# Encontre por testes por que uma função de média devolve valor
-# incorreto mesmo sem lançar exceção.
+# A função abaixo não gera exceção, mas falha para três notas.
+# Escreva primeiro um teste que demonstre o resultado incorreto;
+# depois encontre o erro de precedência e faça a menor correção.
+#
+# CÓDIGO PARA INVESTIGAR:
+#
+# def calcular_media(notas):
+#     return notas[0] + notas[1] + notas[2] / 3
 #
 # Regras:
 #
@@ -24,14 +30,12 @@
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
-# - traceback
-# - debugging
-# - refatoração
-# - legibilidade
-# - testes de regressão
+# - erro lógico
+# - precedência de operadores
+# - teste de regressão
+# - correção mínima
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

@@ -4,8 +4,10 @@
 #
 # Enunciado:
 #
-# Crie funções para verificar separadamente os critérios de uma
-# senha e uma função principal que devolva o resultado completo.
+# Crie funções separadas para verificar tamanho mínimo de 8,
+# maiúscula, minúscula, dígito e caractere especial. Uma função
+# principal deve chamar essas verificações e devolver uma lista
+# com os requisitos ausentes; lista vazia significa senha válida.
 #
 # Regras:
 #
@@ -34,4 +36,3 @@
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

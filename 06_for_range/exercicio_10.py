@@ -4,8 +4,10 @@
 #
 # Enunciado:
 #
-# Leia resultados e palpites de cinco rodadas, atribuindo 3 pontos
-# por acerto exato e 1 por acertar apenas o vencedor.
+# Leia, em cada uma de cinco rodadas, os gols reais dos dois times
+# e depois os gols previstos. Dê 3 pontos por placar exato, 1 ponto
+# quando somente o vencedor ou o empate estiver correto e zero nos
+# demais casos. O acerto exato não recebe o ponto adicional.
 #
 # Regras:
 #
@@ -29,7 +31,7 @@
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Pontuação: 7
+# Pontuação: 6
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
@@ -44,4 +46,3 @@
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

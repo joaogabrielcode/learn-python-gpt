@@ -4,8 +4,9 @@
 #
 # Enunciado:
 #
-# Leia dois conjuntos de itens e mostre o que existe apenas no
-# primeiro e apenas no segundo.
+# Leia duas coleções de itens e mostre, em ordem alfabética, o que
+# existe apenas na primeira e apenas na segunda. Um item repetido
+# na mesma entrada deve ser considerado uma única vez.
 #
 # Regras:
 #
@@ -27,13 +28,11 @@
 # CONCEITOS PRATICADOS:
 #
 # - sets
-# - add()
-# - discard()
-# - operações de conjuntos
-# - for
+# - diferença de conjuntos
+# - remoção de duplicados
+# - sorted()
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

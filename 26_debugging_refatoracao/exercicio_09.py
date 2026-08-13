@@ -4,9 +4,10 @@
 #
 # Enunciado:
 #
-# Reorganize um controle de tarefas com nomes ruins, duplicação e
-# mistura de responsabilidades, preservando o comportamento com
-# testes.
+# Construa uma versão inicial de um controle de tarefas em que uma
+# única função lê comandos, altera a lista, salva o arquivo e imprime
+# mensagens. Registre o comportamento com testes e então separe
+# interface, regras e persistência, mantendo os mesmos comandos.
 #
 # Regras:
 #
@@ -16,24 +17,25 @@
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# adicionar e concluir tarefa
+# adicionar Estudar Python
+# concluir 1
+# listar
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# comportamento preservado
+# [x] Estudar Python
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
-# - traceback
-# - debugging
-# - refatoração
-# - legibilidade
-# - testes de regressão
+# - código de caracterização
+# - refatoração incremental
+# - separação de responsabilidades
+# - persistência
+# - testes
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

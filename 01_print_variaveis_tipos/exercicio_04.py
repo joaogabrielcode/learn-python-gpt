@@ -25,12 +25,10 @@
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
-# - print()
 # - variáveis
-# - str
-# - int
-# - float
-# - bool
+# - atribuição
+# - reatribuição
+# - variável temporária
 #
 # ============================================================
 

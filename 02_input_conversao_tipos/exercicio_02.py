@@ -1,37 +1,36 @@
 # ============================================================
-# EXERCÍCIO 02 — Idade no próximo ano
+# EXERCÍCIO 02 — Inteiro informado
 # ============================================================
 #
 # Enunciado:
 #
-# Solicite a idade como número inteiro e informe qual será a idade
-# no próximo ano.
+# Solicite uma idade, converta a entrada para número inteiro e
+# mostre o valor convertido e seu tipo.
 #
 # Regras:
 #
-# Resolva com a sintaxe básica apresentada neste módulo.
+# Pratique diretamente a sintaxe nova deste módulo.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# 20
+# 26
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# No próximo ano você terá 21 anos.
+# Idade: 26
+# Tipo: <class 'int'>
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - input()
 # - int()
-# - float()
-# - str()
-# - conversão de tipos
+# - type()
+# - variáveis
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

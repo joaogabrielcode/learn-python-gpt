@@ -1,15 +1,16 @@
 # ============================================================
-# EXERCÍCIO 09 — Boletim com dados fixos
+# EXERCÍCIO 09 — Correção de cadastro
 # ============================================================
 #
 # Enunciado:
 #
-# Armazene o nome de um aluno e três notas, calcule a média e
-# apresente um pequeno boletim.
+# Crie variáveis com o nome, a idade e a cidade de uma pessoa.
+# Exiba o cadastro original, altere somente a cidade e mostre
+# uma segunda versão sem perder os demais dados.
 #
 # Regras:
 #
-# Planeje os dados e as etapas antes de começar a programar.
+# Planeje quais entradas precisam ou não de conversão.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
@@ -19,22 +20,26 @@
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Aluno: Bia
-# Notas: 8.0, 7.0, 9.0
-# Média: 8.0
+# CADASTRO ORIGINAL
+# Nome: Bia
+# Idade: 24
+# Cidade: Recife
+#
+# CADASTRO CORRIGIDO
+# Nome: Bia
+# Idade: 24
+# Cidade: Olinda
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - print()
 # - variáveis
-# - str
-# - int
-# - float
-# - bool
+# - reatribuição
+# - preservação de valores
+# - saída organizada
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

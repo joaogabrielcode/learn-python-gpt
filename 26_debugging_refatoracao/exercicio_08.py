@@ -4,8 +4,10 @@
 #
 # Enunciado:
 #
-# Rastreie um defeito que perde registros ao salvar arquivo,
-# reproduza-o com teste e corrija a causa sem mascarar o erro.
+# Investigue uma rotina que abre o arquivo em modo de escrita dentro
+# da repetição que percorre os registros, fazendo cada gravação
+# apagar a anterior. Reproduza a perda com um teste de três registros
+# e corrija o ciclo de abertura sem ignorar erros de arquivo.
 #
 # Regras:
 #
@@ -24,14 +26,13 @@
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
-# - traceback
-# - debugging
-# - refatoração
-# - legibilidade
-# - testes de regressão
+# - persistência
+# - modo de abertura
+# - reprodução de defeito
+# - arquivo temporário
+# - teste de regressão
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

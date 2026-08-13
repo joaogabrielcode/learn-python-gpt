@@ -1,38 +1,38 @@
 # ============================================================
-# EXERCÍCIO 05 — Conversor de metros
+# EXERCÍCIO 05 — Código como texto e número
 # ============================================================
 #
 # Enunciado:
 #
-# Leia uma medida em metros e mostre os valores equivalentes em
-# centímetros e milímetros.
+# Solicite um código composto apenas por algarismos. Preserve a
+# entrada original em uma variável e também crie uma versão
+# convertida para inteiro. Exiba as duas versões e seus tipos.
 #
 # Regras:
 #
-# Considere os dados e regras descritos, inclusive os limites.
+# Combine entradas e conversões sem antecipar operadores ou
+# decisões.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# 1.5
+# 0075
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Centímetros: 150.0
-# Milímetros: 1500.0
+# Original: 0075 — <class 'str'>
+# Convertido: 75 — <class 'int'>
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - input()
 # - int()
-# - float()
-# - str()
-# - conversão de tipos
+# - type()
+# - preservação da entrada
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

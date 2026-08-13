@@ -1,15 +1,17 @@
 # ============================================================
-# EXERCÍCIO 06 — Conversão de temperatura fixa
+# EXERCÍCIO 06 — Uma variável, tipos diferentes
 # ============================================================
 #
 # Enunciado:
 #
-# Armazene uma temperatura em Celsius e calcule o valor
-# correspondente em Fahrenheit.
+# Crie uma variável chamada dado. Atribua a ela, em momentos
+# diferentes, um texto, um número inteiro, um decimal e um valor
+# lógico. Após cada atribuição, mostre o valor e seu tipo.
 #
 # Regras:
 #
-# Considere os dados e regras descritos, inclusive os limites.
+# Combine entradas e conversões sem antecipar operadores ou
+# decisões.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
@@ -19,20 +21,21 @@
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# 25°C equivalem a 77°F
+# Python — <class 'str'>
+# 30 — <class 'int'>
+# 1.75 — <class 'float'>
+# True — <class 'bool'>
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - print()
 # - variáveis
-# - str
-# - int
-# - float
-# - bool
+# - reatribuição
+# - type()
+# - tipagem dinâmica
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

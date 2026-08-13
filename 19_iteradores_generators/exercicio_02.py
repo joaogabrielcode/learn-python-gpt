@@ -1,11 +1,12 @@
 # ============================================================
-# EXERCÍCIO 02 — Iterator de palavra
+# EXERCÍCIO 02 — Consumo parcial do iterador
 # ============================================================
 #
 # Enunciado:
 #
-# Percorra manualmente os caracteres de uma palavra por meio de
-# seu iterador.
+# Crie um único iterador para uma palavra. Consuma os dois primeiros
+# caracteres com next() e depois percorra o mesmo iterador com for.
+# Observe que o for continua do ponto já consumido, sem recomeçar.
 #
 # Regras:
 #
@@ -31,12 +32,11 @@
 #
 # - iter()
 # - next()
-# - protocolo de iteração
-# - yield
-# - generator expression
+# - estado de um iterador
+# - for
+# - esgotamento do iterador
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

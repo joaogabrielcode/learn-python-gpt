@@ -1,25 +1,31 @@
 # ============================================================
-# EXERCÍCIO 09 — Conversor de segundos
+# EXERCÍCIO 09 — Registro de duração
 # ============================================================
 #
 # Enunciado:
 #
-# Leia uma quantidade total de segundos e apresente quantas horas,
-# minutos e segundos ela representa.
+# Solicite o título de uma atividade, a quantidade inteira de
+# horas e uma quantidade decimal de minutos. Converta
+# corretamente os dados e mostre um registro organizado sem
+# realizar cálculos.
 #
 # Regras:
 #
-# Planeje os dados e as etapas antes de começar a programar.
+# Planeje quais entradas precisam ou não de conversão.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# 3672
+# Curso de Python
+# 2
+# 30.5
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# 1 hora(s), 1 minuto(s) e 12 segundo(s)
+# Atividade: Curso de Python
+# Horas: 2 — <class 'int'>
+# Minutos: 30.5 — <class 'float'>
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
@@ -27,11 +33,10 @@
 # - input()
 # - int()
 # - float()
-# - str()
-# - conversão de tipos
+# - múltiplas conversões
+# - saída organizada
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

@@ -1,36 +1,36 @@
 # ============================================================
-# EXERCÍCIO 03 — Dobro de um decimal
+# EXERCÍCIO 03 — Decimal informado
 # ============================================================
 #
 # Enunciado:
 #
-# Leia um número decimal, calcule seu dobro e exiba o resultado.
+# Solicite uma altura, converta a entrada para número decimal e
+# mostre o valor convertido e seu tipo.
 #
 # Regras:
 #
-# Resolva com a sintaxe básica apresentada neste módulo.
+# Pratique diretamente a sintaxe nova deste módulo.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# 3.5
+# 1.75
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Dobro: 7.0
+# Altura: 1.75
+# Tipo: <class 'float'>
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - input()
-# - int()
 # - float()
-# - str()
-# - conversão de tipos
+# - type()
+# - variáveis
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

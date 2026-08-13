@@ -1,39 +1,38 @@
 # ============================================================
-# EXERCÍCIO 08 — Compra de produto
+# EXERCÍCIO 08 — Ano em duas representações
 # ============================================================
 #
 # Enunciado:
 #
-# Leia nome, preço unitário e quantidade de um produto e mostre o
-# custo total da compra.
+# Solicite um ano, converta-o para inteiro e depois crie uma
+# representação textual a partir desse inteiro. Mostre cada
+# versão acompanhada de seu tipo.
 #
 # Regras:
 #
-# Combine este assunto com os fundamentos dos módulos anteriores.
+# Observe como a escolha do tipo altera a representação do dado.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
 #
-# Caneta
-# 2.5
-# 4
+# 2026
 #
 # ------------------------------------------------------------
 # SAÍDA ESPERADA:
 #
-# Caneta — total: 10.0
+# Número: 2026 — <class 'int'>
+# Texto: 2026 — <class 'str'>
 #
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
 # - input()
 # - int()
-# - float()
 # - str()
-# - conversão de tipos
+# - type()
+# - conversões encadeadas
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

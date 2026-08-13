@@ -4,12 +4,13 @@
 #
 # Enunciado:
 #
-# Leia uma idade e classifique-a como criança, adolescente, adulto
-# ou idoso usando faixas informadas no enunciado.
+# Leia uma idade e classifique-a como criança (0 a 11 anos),
+# adolescente (12 a 17), adulto (18 a 59) ou idoso (60 ou mais).
+# Para uma idade negativa, informe "Idade inválida".
 #
 # Regras:
 #
-# Considere os dados e regras descritos, inclusive os limites.
+# Garanta que cada valor pertença a exatamente uma faixa.
 #
 # ------------------------------------------------------------
 # ENTRADA DE EXEMPLO:
@@ -34,4 +35,3 @@
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

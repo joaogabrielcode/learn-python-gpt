@@ -24,13 +24,11 @@
 # CONCEITOS PRATICADOS:
 #
 # - input()
-# - int()
-# - float()
-# - str()
-# - conversão de tipos
+# - str
+# - print()
+# - saída personalizada
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

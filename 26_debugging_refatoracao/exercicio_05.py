@@ -4,8 +4,16 @@
 #
 # Enunciado:
 #
-# Depure uma função cujo argumento padrão faz chamadas
-# independentes compartilharem dados inesperadamente.
+# A função abaixo reutiliza a mesma lista entre chamadas que deveriam
+# ser independentes. Escreva um teste que reproduza o defeito,
+# investigue quando o argumento padrão é criado e refatore a função
+# para produzir listas independentes.
+#
+# CÓDIGO PARA INVESTIGAR:
+#
+# def adicionar(nome, nomes=[]):
+#     nomes.append(nome)
+#     return nomes
 #
 # Regras:
 #
@@ -25,14 +33,12 @@
 # ------------------------------------------------------------
 # CONCEITOS PRATICADOS:
 #
-# - traceback
-# - debugging
-# - refatoração
-# - legibilidade
-# - testes de regressão
+# - argumento padrão mutável
+# - estado compartilhado
+# - None como sentinela
+# - teste de regressão
 #
 # ============================================================
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-

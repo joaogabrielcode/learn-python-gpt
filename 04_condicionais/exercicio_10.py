@@ -4,8 +4,11 @@
 #
 # Enunciado:
 #
-# Leia idade, anos de experiência, formação e disponibilidade;
-# aplique os critérios fornecidos para classificar a candidatura.
+# Leia idade, anos de experiência, se possui formação e se tem
+# disponibilidade. Aprove quem tiver pelo menos 18 anos, formação
+# e disponibilidade, além de 2 anos de experiência. Classifique
+# como "banco de talentos" quem cumprir tudo exceto a experiência;
+# nos demais casos, informe "não selecionada".
 #
 # Regras:
 #
@@ -38,4 +41,3 @@
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
-
