@@ -1,31 +1,27 @@
-# Agenda de contatos persistente
+# Agenda de contatos
 
 ## Objetivo
 
-Criar uma agenda que mantenha contatos entre diferentes execuções do programa.
+Criar uma agenda persistente com busca flexível e importação segura.
 
-## Requisitos
+## Pré-requisito recomendado
 
-- Cadastrar nome, telefone e e-mail.
-- Buscar, editar e remover contatos.
-- Validar campos e impedir registros inconsistentes.
-- Salvar e carregar os dados de um arquivo.
-- Tratar arquivo ausente ou corrompido.
+Após concluir o Módulo 09.
 
-## Funcionalidades
+## Funcionalidades obrigatórias
 
-- Cadastrar nome, telefone e e-mail.
-- Buscar, editar e remover contatos.
-- Validar campos e impedir registros inconsistentes.
-- Salvar e carregar os dados de um arquivo.
-- Tratar arquivo ausente ou corrompido.
+- Cadastrar, buscar, editar e remover contatos.
+- Validar nome, telefone e e-mail.
+- Persistir registros em arquivo.
+- Importar um lote sem interromper em registro inválido.
+- Buscar por parte do nome.
+- Separar leitura, regras e apresentação.
 
 ## Conhecimentos necessários
 
-- Módulos 01 a 17.
-- Dicionários, funções, exceptions, arquivos, módulos e pacotes.
+- Módulos 01–09: estruturas, funções, arquivos, módulos e recursos intermediários.
 
-## Exemplo de uso
+## Exemplo de utilização
 
 ```text
 Nome: Ana
@@ -34,16 +30,15 @@ Contato salvo.
 Busca: Ana — 9999-0000
 ```
 
-O exemplo ilustra o comportamento esperado, não a implementação.
+O exemplo descreve comportamento esperado, não uma implementação.
 
-## Funcionalidades extras opcionais
+## Funcionalidades opcionais
 
-- Mais de um telefone por contato.
-- Importação e exportação CSV.
-- Favoritos e grupos.
+- Grupos e favoritos.
+- Generator para paginação.
+- Sincronização entre dois arquivos.
 
 ## Entrega esperada
 
-Crie a implementação dentro desta pasta, sem copiar uma solução pronta.
-Inclua instruções para executar o programa e registre decisões importantes.
+Implemente o projeto nesta pasta sem copiar uma solução pronta. Registre no README as instruções de execução e as decisões importantes.
 

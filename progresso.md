@@ -2,34 +2,49 @@
 
 ## Módulo atual
 
-01 — Print, Variáveis e Tipos
+01 — Fundamentos e entrada de dados
 
-## Exercícios
+## Exercícios do módulo atual
 
-- [ ] Exercício 01
-- [ ] Exercício 02
-- [ ] Exercício 03
-- [ ] Exercício 04
-- [ ] Exercício 05
-- [ ] Exercício 06
-- [ ] Exercício 07
-- [ ] Exercício 08
-- [ ] Exercício 09
-- [ ] Exercício 10
+- [x] Exercício 01 — Mensagem de boas-vindas
+- [x] Exercício 02 — Ficha com variáveis
+- [x] Exercício 03 — Tipos básicos
+- [x] Exercício 04 — Troca de valores
+- [x] Exercício 05 — Estado de uma entrega
+- [x] Exercício 06 — Uma variável, tipos diferentes
+- [ ] Exercício 07 — Saudação interativa
+- [ ] Exercício 08 — Cadastro com conversões
+- [ ] Exercício 09 — Código que preserva zeros
+- [ ] Exercício 10 — Calculadora de consumo
+- [ ] Exercício 11 — Tempo total em segundos
+- [ ] Exercício 12 — Conta compartilhada
+- [ ] Exercício 13 — Média ponderada
+- [ ] Exercício 14 — Orçamento de viagem
+- [ ] Exercício 15 — Desafio: Simulação de compra
 
-## Dificuldades observadas
+## Checkpoints concluídos
 
-Nenhuma registrada.
-
-## Conceitos para revisar
-
-Nenhum registrado.
-
-## Erros recorrentes
-
-Nenhum registrado.
+Nenhum.
 
 ## Projetos concluídos
 
 Nenhum.
+
+## Dificuldades observadas
+
+- Manter o mesmo nome da variável em todas as referências após renomeá-la.
+
+## Conceitos para revisar
+
+- Reatribuição de uma variável existente.
+- Convenção de nomes em snake_case.
+
+## Erros recorrentes
+
+Nenhum erro recorrente confirmado.
+
+## Histórico da reestruturação
+
+As soluções dos seis primeiros exercícios da trilha anterior foram
+preservadas integralmente no novo Módulo 01.
 

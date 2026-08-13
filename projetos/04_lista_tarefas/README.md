@@ -1,49 +1,42 @@
-# Lista de tarefas
+# Lista de tarefas organizada
 
 ## Objetivo
 
-Criar uma aplicação de terminal para administrar tarefas durante a execução.
+Administrar tarefas com funções bem separadas e filtros úteis.
 
-## Requisitos
+## Pré-requisito recomendado
 
-- Adicionar uma tarefa com descrição.
-- Listar tarefas com número e estado.
-- Marcar uma tarefa como concluída.
-- Editar e remover uma tarefa.
-- Tratar escolhas e posições inválidas.
+Após concluir o Módulo 07.
 
-## Funcionalidades
+## Funcionalidades obrigatórias
 
-- Adicionar uma tarefa com descrição.
-- Listar tarefas com número e estado.
-- Marcar uma tarefa como concluída.
-- Editar e remover uma tarefa.
-- Tratar escolhas e posições inválidas.
+- Adicionar, editar, concluir e remover tarefas.
+- Listar tarefas com identificador e estado.
+- Filtrar por estado ou prioridade.
+- Separar interação das regras.
+- Validar identificadores e campos.
 
 ## Conhecimentos necessários
 
-- Módulos 01 a 12.
-- Listas, dicionários, funções, loops e validações.
+- Módulos 01–07: estruturas combinadas e funções.
 
-## Exemplo de uso
+## Exemplo de utilização
 
 ```text
-1. Adicionar tarefa
-Descrição: Estudar listas
-Tarefa adicionada.
-[ ] Estudar listas
+Adicionar: Estudar funções
+Tarefa 1 criada.
+[ ] 1 — Estudar funções
 ```
 
-O exemplo ilustra o comportamento esperado, não a implementação.
+O exemplo descreve comportamento esperado, não uma implementação.
 
-## Funcionalidades extras opcionais
+## Funcionalidades opcionais
 
-- Prioridade e categoria.
-- Filtros por estado.
-- Datas de vencimento.
+- Categorias e prazos.
+- Estatísticas de conclusão.
+- Persistência após o Módulo 08.
 
 ## Entrega esperada
 
-Crie a implementação dentro desta pasta, sem copiar uma solução pronta.
-Inclua instruções para executar o programa e registre decisões importantes.
+Implemente o projeto nesta pasta sem copiar uma solução pronta. Registre no README as instruções de execução e as decisões importantes.
 

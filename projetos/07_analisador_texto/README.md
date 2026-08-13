@@ -1,31 +1,27 @@
-# Analisador de texto
+# Analisador de textos e arquivos
 
 ## Objetivo
 
-Analisar arquivos de texto e gerar estatísticas úteis sem carregar soluções prontas.
+Analisar textos potencialmente grandes e gerar relatórios sem manter dados desnecessários em memória.
 
-## Requisitos
+## Pré-requisito recomendado
 
-- Ler texto digitado ou um arquivo.
-- Contar caracteres, linhas, palavras e palavras únicas.
-- Calcular frequência de palavras ignorando caixa e pontuação.
-- Mostrar palavras mais frequentes.
-- Gravar um relatório em arquivo.
+Após concluir o Módulo 09 e o Checkpoint 04.
 
-## Funcionalidades
+## Funcionalidades obrigatórias
 
-- Ler texto digitado ou um arquivo.
-- Contar caracteres, linhas, palavras e palavras únicas.
-- Calcular frequência de palavras ignorando caixa e pontuação.
-- Mostrar palavras mais frequentes.
-- Gravar um relatório em arquivo.
+- Ler texto digitado ou arquivo.
+- Normalizar palavras e contar frequências.
+- Mostrar termos mais comuns e exclusivos.
+- Processar arquivos grandes linha a linha.
+- Gravar relatório em formato textual.
+- Tratar problemas de leitura.
 
 ## Conhecimentos necessários
 
-- Módulos 01 a 19.
-- Strings, dicionários, arquivos, módulos, generators e exceptions.
+- Strings, sets, dicionários, funções, arquivos, generators e exceptions.
 
-## Exemplo de uso
+## Exemplo de utilização
 
 ```text
 Arquivo: texto.txt
@@ -34,16 +30,15 @@ Palavras: 180
 Mais frequente: python — 14
 ```
 
-O exemplo ilustra o comportamento esperado, não a implementação.
+O exemplo descreve comportamento esperado, não uma implementação.
 
-## Funcionalidades extras opcionais
+## Funcionalidades opcionais
 
-- Contagem de frases.
-- Busca por termo com contexto.
-- Comparação entre dois textos.
+- Comparar dois textos.
+- Índice de palavras por linha.
+- Relatório JSON após o Módulo 11.
 
 ## Entrega esperada
 
-Crie a implementação dentro desta pasta, sem copiar uma solução pronta.
-Inclua instruções para executar o programa e registre decisões importantes.
+Implemente o projeto nesta pasta sem copiar uma solução pronta. Registre no README as instruções de execução e as decisões importantes.
 

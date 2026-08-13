@@ -1,52 +1,47 @@
-# Sistema bancário
+# Sistema bancário testado
 
 ## Objetivo
 
-Simular contas e transações com regras consistentes e histórico auditável.
+Simular contas e transações com histórico, persistência e testes das regras críticas.
 
-## Requisitos
+## Pré-requisito recomendado
 
-- Criar clientes e contas identificadas.
-- Realizar depósito, saque e transferência.
-- Impedir valores inválidos e saldo insuficiente.
-- Registrar extrato com data e tipo da operação.
-- Salvar e restaurar os dados.
-- Cobrir as regras principais com testes.
+Após concluir o Módulo 12 e o Checkpoint 05.
 
-## Funcionalidades
+## Funcionalidades obrigatórias
 
 - Criar clientes e contas identificadas.
 - Realizar depósito, saque e transferência.
 - Impedir valores inválidos e saldo insuficiente.
-- Registrar extrato com data e tipo da operação.
-- Salvar e restaurar os dados.
-- Cobrir as regras principais com testes.
+- Registrar transações com data.
+- Persistir e recuperar dados.
+- Usar type hints e dataclasses quando fizer sentido.
+- Cobrir regras e persistência com pytest.
 
 ## Conhecimentos necessários
 
-- Módulos 01 a 25.
-- POO, composição, dataclasses, datetime, JSON, type hints, exceptions e pytest.
+- Módulos 01–12: POO, Python moderno, persistência e testes.
 
-## Exemplo de uso
+## Exemplo de utilização
 
 ```text
 Conta origem: 1001
 Conta destino: 1002
 Valor: 50
 Transferência realizada.
-Saldo da conta 1001: 150.00
+Saldo da origem: 150.00
 ```
 
-O exemplo ilustra o comportamento esperado, não a implementação.
+O exemplo descreve comportamento esperado, não uma implementação.
 
-## Funcionalidades extras opcionais
+## Funcionalidades opcionais
 
 - Limites diários.
-- Tipos diferentes de conta.
-- Relatório mensal e rendimento simulado.
+- Tipos de conta.
+- Extratos por período.
+- Recuperação de backup.
 
 ## Entrega esperada
 
-Crie a implementação dentro desta pasta, sem copiar uma solução pronta.
-Inclua instruções para executar o programa e registre decisões importantes.
+Implemente o projeto nesta pasta sem copiar uma solução pronta. Registre no README as instruções de execução e as decisões importantes.
 

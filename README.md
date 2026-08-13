@@ -1,71 +1,89 @@
-# Python Prática — Trilha Completa antes de Django
+# Python Prática — Trilha Progressiva antes de Django
 
 Este repositório é uma trilha de prática deliberada para desenvolver
-fluência em Python puro antes de estudar frameworks.
+fluência, lógica e autonomia em Python puro antes de estudar frameworks.
 
 ## Objetivo
 
-Ao concluir a trilha, você deverá conseguir escrever e compreender Python
-básico e intermediário com autonomia, resolver problemas, interpretar
-tracebacks, organizar programas e testar seu código.
+Ao concluir a trilha, você deverá conseguir transformar problemas em
+programas, escolher estruturas adequadas, interpretar erros, organizar
+código e testar suas decisões sem depender de IA para cada linha.
 
-## Como estudar
+## Metodologia
 
-1. Siga os módulos na ordem numérica.
-2. Resolva um exercício por vez no próprio arquivo.
-3. Execute o programa com entradas diferentes das fornecidas no exemplo.
-4. Peça pistas graduais quando travar; não procure uma solução pronta.
-5. Ao concluir um módulo, faça o desafio e atualize `progresso.md`.
-6. Inicie um projeto somente depois de estudar os conhecimentos indicados
-   no README dele.
+A trilha é progressiva, cumulativa e prática:
 
-Cada módulo contém dez exercícios. Os três primeiros fixam a sintaxe, os
-seguintes acrescentam lógica, e os últimos integram conteúdos anteriores.
+1. cada exercício apresenta uma novidade central;
+2. sintaxe importante reaparece em problemas diferentes;
+3. conceitos relacionados são estudados juntos;
+4. a orientação diminui conforme o módulo avança;
+5. checkpoints exigem recuperação de conteúdos anteriores;
+6. projetos transformam combinações de conhecimentos em autonomia.
 
-## Módulos
+Não existe uma meta artificial de dez exercícios por conceito. Um
+exercício só permanece quando possui uma razão pedagógica diferente.
 
-1. Print, variáveis e tipos
-2. Input e conversão de tipos
-3. Operadores
-4. Condicionais
-5. While
-6. For e range
-7. Strings
-8. Listas
-9. Tuplas
-10. Sets
-11. Dicionários
-12. Funções
-13. Escopo
-14. Comprehensions
-15. Tratamento de exceções
-16. Arquivos
-17. Módulos e pacotes
-18. Funções avançadas
-19. Iteradores e generators
-20. POO básico
-21. POO intermediário
-22. Dataclasses
-23. Type hints
-24. Biblioteca padrão
-25. Testes
-26. Debugging e refatoração
-27. Revisão de Python
+## Estrutura dos módulos
+
+| Módulo | Assunto | Exercícios |
+|---|---|---:|
+| 01 | Fundamentos e entrada de dados | 15 |
+| 02 | Comparações, decisões e lógica | 12 |
+| 03 | Repetição e controle de fluxo | 15 |
+| 04 | Strings | 12 |
+| 05 | Coleções: listas, tuplas e sets | 16 |
+| 06 | Dicionários e estruturas combinadas | 13 |
+| 07 | Funções e organização de código | 15 |
+| 08 | Exceptions, arquivos, módulos e pacotes | 14 |
+| 09 | Python intermediário | 14 |
+| 10 | Orientação a objetos | 16 |
+| 11 | Python moderno e qualidade de código | 12 |
+| 12 | Testes, debugging e refatoração | 12 |
+| 13 | Revisão cumulativa de Python | 15 |
+
+Total: **181 exercícios**.
+
+## Checkpoints
+
+Há cinco checkpoints, cada um com quatro problemas cumulativos:
+
+1. fundamentos e decisões — após o Módulo 02;
+2. controle de fluxo e strings — após o Módulo 04;
+3. estruturas de dados e funções — após o Módulo 07;
+4. persistência e Python intermediário — após o Módulo 09;
+5. Python profissional — após o Módulo 12.
+
+Nos checkpoints, escolha as estruturas com mais autonomia. Eles não
+substituem os módulos: servem para verificar retenção e combinação.
 
 ## Mini projetos
 
-A pasta `projetos/` contém dez projetos progressivos. Cada projeto tem
-objetivos, requisitos, exemplos e extensões opcionais, mas nenhuma solução.
+A pasta `projetos/` contém dez projetos progressivos. Cada README informa
+o pré-requisito recomendado, funcionalidades obrigatórias, conhecimentos
+necessários, exemplo de uso e extensões opcionais.
+
+Não comece um projeto antes de estudar seus pré-requisitos. O projeto final
+acontece somente após o Módulo 13 e deve permanecer em Python puro.
+
+## Como estudar
+
+1. Siga os módulos na ordem.
+2. Resolva um exercício por vez no próprio arquivo.
+3. Leia a novidade central, mas planeje a implementação por conta própria.
+4. Execute com o exemplo e invente outros casos.
+5. Peça testes ou pistas graduais quando necessário.
+6. Ao concluir módulo, checkpoint ou projeto, atualize `progresso.md`.
+7. Faça commits pequenos após exercícios verificados.
 
 ## Regras de uso
 
-- Escreva sua solução somente abaixo do marcador de cada exercício.
-- Não avance para conceitos ainda não estudados apenas para encurtar código.
-- Prefira clareza e domínio da sintaxe a soluções muito compactas.
-- Erros fazem parte do treino: leia o traceback antes de alterar o código.
+- Escreva somente abaixo de `# ESCREVA SUA SOLUÇÃO ABAIXO:`.
+- Não procure soluções prontas para concluir rapidamente.
+- Não use conceitos ainda não estudados apenas para encurtar o código.
+- Prefira clareza a versões compactas.
+- Leia o traceback antes de alterar um programa com erro.
 - Django não faz parte desta trilha.
 
-Percorrer os arquivos não basta para estar pronto para Django. Ao final,
-revise sua autonomia com sintaxe, funções, estruturas de dados, exceptions,
-arquivos, classes, imports, ambientes virtuais, testes e tracebacks.
+Percorrer arquivos não determina prontidão. Ao final, a decisão de avançar
+dependerá da autonomia demonstrada em exercícios, checkpoints e projetos.
 

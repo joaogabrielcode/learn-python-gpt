@@ -1,31 +1,27 @@
-# Sistema de cadastro
+# Sistema de cadastro orientado a objetos
 
 ## Objetivo
 
-Desenvolver um cadastro modular de pessoas ou clientes com regras de domínio.
+Desenvolver cadastro modular com entidades, validações e persistência.
 
-## Requisitos
+## Pré-requisito recomendado
 
-- Modelar a entidade principal com classe.
+Após concluir o Módulo 10.
+
+## Funcionalidades obrigatórias
+
+- Modelar entidades com classes quando apropriado.
+- Criar identificador único.
 - Cadastrar, listar, buscar, atualizar e remover.
-- Usar identificador único.
-- Validar dados e lançar exceções claras.
-- Persistir registros e separar responsabilidades em módulos.
-
-## Funcionalidades
-
-- Modelar a entidade principal com classe.
-- Cadastrar, listar, buscar, atualizar e remover.
-- Usar identificador único.
-- Validar dados e lançar exceções claras.
-- Persistir registros e separar responsabilidades em módulos.
+- Lançar exceptions de domínio claras.
+- Persistir e reconstruir objetos.
+- Separar domínio, persistência e interface.
 
 ## Conhecimentos necessários
 
-- Módulos 01 a 23.
-- POO, dataclasses quando apropriado, type hints, módulos, arquivos e exceptions.
+- Módulos 01–10: POO, exceptions, arquivos e módulos.
 
-## Exemplo de uso
+## Exemplo de utilização
 
 ```text
 Nome: Ana
@@ -34,16 +30,15 @@ Cadastro 1 criado.
 1 — Ana — ana@email.com
 ```
 
-O exemplo ilustra o comportamento esperado, não a implementação.
+O exemplo descreve comportamento esperado, não uma implementação.
 
-## Funcionalidades extras opcionais
+## Funcionalidades opcionais
 
-- Ordenação e filtros.
 - Histórico de alterações.
-- Formato JSON para persistência.
+- Importação e exportação.
+- Mais de um tipo de cadastro.
 
 ## Entrega esperada
 
-Crie a implementação dentro desta pasta, sem copiar uma solução pronta.
-Inclua instruções para executar o programa e registre decisões importantes.
+Implemente o projeto nesta pasta sem copiar uma solução pronta. Registre no README as instruções de execução e as decisões importantes.
 

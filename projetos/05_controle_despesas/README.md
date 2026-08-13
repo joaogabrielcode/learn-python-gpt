@@ -1,31 +1,27 @@
-# Controle de despesas
+# Controle de despesas persistente
 
 ## Objetivo
 
-Registrar movimentações e gerar resumos financeiros organizados.
+Registrar movimentações e gerar resumos financeiros que permaneçam entre execuções.
 
-## Requisitos
+## Pré-requisito recomendado
 
-- Cadastrar descrição, categoria, data e valor.
-- Validar valores e categorias.
-- Listar e filtrar despesas.
-- Calcular total geral e por categoria.
-- Separar regras em funções.
+Após concluir o Módulo 08 e o Checkpoint 04.
 
-## Funcionalidades
+## Funcionalidades obrigatórias
 
 - Cadastrar descrição, categoria, data e valor.
-- Validar valores e categorias.
-- Listar e filtrar despesas.
-- Calcular total geral e por categoria.
-- Separar regras em funções.
+- Listar e filtrar movimentações.
+- Calcular totais e saldo.
+- Salvar e carregar registros.
+- Tratar arquivo ausente, corrompido e linhas inválidas.
+- Organizar código em módulos.
 
 ## Conhecimentos necessários
 
-- Módulos 01 a 15.
-- Funções, dicionários, comprehensions e exceptions.
+- Módulos 01–08: funções, exceptions, arquivos e módulos.
 
-## Exemplo de uso
+## Exemplo de utilização
 
 ```text
 Categoria: alimentação
@@ -34,16 +30,15 @@ Despesa registrada.
 Total de alimentação: 35.50
 ```
 
-O exemplo ilustra o comportamento esperado, não a implementação.
+O exemplo descreve comportamento esperado, não uma implementação.
 
-## Funcionalidades extras opcionais
+## Funcionalidades opcionais
 
-- Limite mensal por categoria.
-- Receitas e saldo.
-- Exportação de relatório textual.
+- Limites mensais.
+- Exportação de relatórios.
+- Backup antes de alterações.
 
 ## Entrega esperada
 
-Crie a implementação dentro desta pasta, sem copiar uma solução pronta.
-Inclua instruções para executar o programa e registre decisões importantes.
+Implemente o projeto nesta pasta sem copiar uma solução pronta. Registre no README as instruções de execução e as decisões importantes.
 

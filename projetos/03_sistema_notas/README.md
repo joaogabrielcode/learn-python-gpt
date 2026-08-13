@@ -2,30 +2,25 @@
 
 ## Objetivo
 
-Registrar alunos e notas e produzir um relatório escolar simples.
+Registrar alunos e avaliações e produzir relatórios de desempenho.
 
-## Requisitos
+## Pré-requisito recomendado
 
-- Cadastrar vários alunos.
-- Guardar várias notas por aluno.
-- Calcular média e situação conforme regras documentadas.
-- Mostrar maior, menor e média da turma.
-- Buscar o relatório de um aluno.
+Após concluir o Módulo 06 e o Checkpoint 03.
 
-## Funcionalidades
+## Funcionalidades obrigatórias
 
-- Cadastrar vários alunos.
-- Guardar várias notas por aluno.
-- Calcular média e situação conforme regras documentadas.
-- Mostrar maior, menor e média da turma.
-- Buscar o relatório de um aluno.
+- Cadastrar, buscar e atualizar alunos.
+- Armazenar várias notas por aluno.
+- Calcular média e situação.
+- Produzir estatísticas da turma.
+- Tratar registros ausentes e entradas inválidas.
 
 ## Conhecimentos necessários
 
-- Módulos 01 a 11.
-- Loops, strings, listas e dicionários.
+- Módulos 01–06: loops, strings, coleções e dicionários.
 
-## Exemplo de uso
+## Exemplo de utilização
 
 ```text
 Aluno: Ana
@@ -33,16 +28,15 @@ Notas: 8 7 9
 Ana — média 8.0 — aprovada
 ```
 
-O exemplo ilustra o comportamento esperado, não a implementação.
+O exemplo descreve comportamento esperado, não uma implementação.
 
-## Funcionalidades extras opcionais
+## Funcionalidades opcionais
 
-- Pesos diferentes por avaliação.
-- Ranking da turma.
-- Edição e remoção de registros.
+- Pesos por avaliação.
+- Ranking com critérios de desempate.
+- Exportação após o Módulo 08.
 
 ## Entrega esperada
 
-Crie a implementação dentro desta pasta, sem copiar uma solução pronta.
-Inclua instruções para executar o programa e registre decisões importantes.
+Implemente o projeto nesta pasta sem copiar uma solução pronta. Registre no README as instruções de execução e as decisões importantes.
 

@@ -1,41 +1,31 @@
-# Projeto final — Gerenciador pessoal
+# Projeto final de Python puro
 
 ## Objetivo
 
-Construir uma aplicação completa de Python puro que demonstre autonomia antes da avaliação de prontidão para Django.
+Construir uma aplicação completa que demonstre autonomia antes da avaliação de prontidão para Django.
 
-## Requisitos
+## Pré-requisito recomendado
 
-- Escolher um domínio pessoal, como hábitos, biblioteca, estudos ou finanças.
-- Documentar regras e casos de uso antes de programar.
-- Organizar o código em múltiplos módulos e pacotes.
-- Usar funções e estruturas de dados com responsabilidades claras.
-- Aplicar orientação a objetos quando ela representar bem o domínio.
-- Criar exceptions próprias para violações importantes.
-- Persistir dados em arquivo ou JSON com recuperação de falhas.
+Após concluir o Módulo 13 e os checkpoints. Escolha o domínio somente depois de revisar suas dificuldades registradas.
+
+## Funcionalidades obrigatórias
+
+- Documentar problema, regras e casos de uso antes de programar.
+- Organizar código em múltiplos módulos.
+- Usar funções e estruturas com responsabilidades claras.
+- Aplicar classes somente quando representarem bem o domínio.
+- Criar exceptions para violações importantes.
+- Persistir dados com recuperação de falhas.
 - Adicionar type hints às interfaces principais.
-- Escrever testes unitários e de integração com pytest.
-- Fornecer uma interface de terminal e um README de execução.
-
-## Funcionalidades
-
-- Escolher um domínio pessoal, como hábitos, biblioteca, estudos ou finanças.
-- Documentar regras e casos de uso antes de programar.
-- Organizar o código em múltiplos módulos e pacotes.
-- Usar funções e estruturas de dados com responsabilidades claras.
-- Aplicar orientação a objetos quando ela representar bem o domínio.
-- Criar exceptions próprias para violações importantes.
-- Persistir dados em arquivo ou JSON com recuperação de falhas.
-- Adicionar type hints às interfaces principais.
-- Escrever testes unitários e de integração com pytest.
-- Fornecer uma interface de terminal e um README de execução.
+- Escrever testes unitários e de integração.
+- Fornecer interface de terminal e README de execução.
+- Justificar escolhas de estrutura e organização.
 
 ## Conhecimentos necessários
 
-- Conclusão dos 27 módulos e dos projetos preparatórios recomendados.
-- Funções, estruturas de dados, POO, exceptions, arquivos, módulos, type hints, biblioteca padrão, testes, debugging e organização de código.
+- Toda a trilha de Python puro, especialmente funções, estruturas, POO, exceptions, arquivos, type hints, testes e debugging.
 
-## Exemplo de uso
+## Exemplo de utilização
 
 ```text
 1. Registrar item
@@ -46,18 +36,17 @@ Escolha: 1
 Registro salvo com sucesso.
 ```
 
-O exemplo ilustra o comportamento esperado, não a implementação.
+O exemplo descreve comportamento esperado, não uma implementação.
 
-## Funcionalidades extras opcionais
+## Funcionalidades opcionais
 
-- Busca, filtros e paginação.
-- Exportação para mais de um formato.
-- Logs, backup e restauração.
-- Relatórios por período.
-- Cobertura de testes configurada e medida.
+- Mais de um formato de exportação.
+- Logs e backup.
+- Paginação e filtros.
+- Medição de cobertura.
+- Funcionalidades específicas do domínio escolhido.
 
 ## Entrega esperada
 
-Crie a implementação dentro desta pasta, sem copiar uma solução pronta.
-Inclua instruções para executar o programa e registre decisões importantes.
+Implemente o projeto nesta pasta sem copiar uma solução pronta. Registre no README as instruções de execução e as decisões importantes.
 

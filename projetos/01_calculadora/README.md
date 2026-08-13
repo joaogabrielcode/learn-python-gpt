@@ -1,47 +1,41 @@
-# Calculadora interativa
+# Calculadora progressiva
 
 ## Objetivo
 
-Criar uma calculadora de terminal que repita operações até o usuário escolher sair.
+Criar uma calculadora de terminal que evolua de operações simples para uma sessão de cálculos validada.
 
-## Requisitos
+## Pré-requisito recomendado
 
-- Somar, subtrair, multiplicar e dividir dois números.
-- Exibir um menu e validar a operação escolhida.
-- Impedir divisão por zero sem encerrar inesperadamente.
-- Permitir vários cálculos na mesma execução.
+Após concluir o Módulo 02 e, preferencialmente, o Checkpoint 01.
 
-## Funcionalidades
+## Funcionalidades obrigatórias
 
-- Somar, subtrair, multiplicar e dividir dois números.
-- Exibir um menu e validar a operação escolhida.
-- Impedir divisão por zero sem encerrar inesperadamente.
-- Permitir vários cálculos na mesma execução.
+- Somar, subtrair, multiplicar e dividir.
+- Repetir cálculos até a opção de saída.
+- Validar operação e divisão por zero.
+- Apresentar resultados formatados.
 
 ## Conhecimentos necessários
 
-- Módulos 01 a 05.
-- Variáveis, conversões, operadores, condicionais e while.
+- Módulos 01 e 02: entrada, conversões, operadores e decisões.
 
-## Exemplo de uso
+## Exemplo de utilização
 
 ```text
-Operação: +
-Primeiro número: 8
+Operação: /
+Primeiro número: 10
 Segundo número: 2
-Resultado: 10
+Resultado: 5.00
 ```
 
-O exemplo ilustra o comportamento esperado, não a implementação.
+O exemplo descreve comportamento esperado, não uma implementação.
 
-## Funcionalidades extras opcionais
+## Funcionalidades opcionais
 
-- Histórico dos cálculos da sessão.
-- Potenciação e divisão inteira.
-- Limpar o histórico por opção do menu.
+- Histórico da sessão após o Módulo 03.
+- Novas operações sem duplicar o fluxo.
 
 ## Entrega esperada
 
-Crie a implementação dentro desta pasta, sem copiar uma solução pronta.
-Inclua instruções para executar o programa e registre decisões importantes.
+Implemente o projeto nesta pasta sem copiar uma solução pronta. Registre no README as instruções de execução e as decisões importantes.
 
