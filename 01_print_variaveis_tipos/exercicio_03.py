@@ -39,3 +39,12 @@
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
+nome = "João Gabriel"
+idade = 26
+altura = 1.75
+estudante = True
+
+print(f"{nome} -", type(nome))
+print(f"{idade} -", type(idade))
+print(f"{altura} -", type(altura))
+print(f"{estudante} -", type(estudante))
