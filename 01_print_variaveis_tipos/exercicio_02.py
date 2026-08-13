@@ -39,3 +39,12 @@
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
+nome = "João Gabriel";
+idade = 26;
+altura = 1.75;
+estuda_python = True;
+
+print(f"Nome: {nome}")
+print(f"Idade: {idade}")
+print(f"Altura: {altura}")
+print(f"Estuda Python: {estuda_python}")

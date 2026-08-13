@@ -39,5 +39,5 @@
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
 print("João")
-print("Bem vindo ao Python")
+print("Bem-vindo ao Python")
 print(2026)
