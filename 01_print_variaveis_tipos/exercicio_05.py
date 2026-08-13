@@ -45,3 +45,20 @@
 
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
+codigo_pedido = "PED-134"
+nome_cliente = "João Gabriel"
+status_pedido = "Aguardando pagamento"
+pagamento = False
+
+print("Pedido: ", codigo_pedido)
+print("Nome do Cliente: ", nome_cliente)
+print("Status do Pedido: ", status_pedido)
+print("Pagamento confirmado: ", pagamento)
+
+statusPedido = "Pagamento Aprovado com sucesso"
+pagamento = True
+
+print("### Pedido Atualizado ###")
+
+print("Status do Pedido: ", statusPedido)
+print("Pagamento confirmado: ", pagamento)
