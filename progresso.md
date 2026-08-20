@@ -17,7 +17,7 @@
 - [x] Exercício 09 — Código que preserva zeros
 - [x] Exercício 10 — Calculadora de consumo
 - [x] Exercício 11 — Tempo total em segundos
-- [ ] Exercício 12 — Conta compartilhada
+- [x] Exercício 12 — Conta compartilhada
 - [ ] Exercício 13 — Média ponderada
 - [ ] Exercício 14 — Orçamento de viagem
 - [ ] Exercício 15 — Desafio: Simulação de compra

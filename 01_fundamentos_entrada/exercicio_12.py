@@ -38,3 +38,12 @@
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
+valor_conta = float(input("Qual o valor da conta? "))
+porcentagem = float(input("Qual a porcentagem da gorgeta? "))
+pessoas = int(input("Quantas pessoas? "))
+
+total = (valor_conta * porcentagem / 100) + valor_conta
+total_pessoa = total / pessoas
+
+print(f"Total: {total:.2f}")
+print(f"Por pessoa: {total_pessoa:.2f}")
