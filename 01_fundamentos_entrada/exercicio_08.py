@@ -40,8 +40,8 @@
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
 nome = input("Qual seu nome? ")
-idade = input("Qual sua idade? ")
-altura = input("Qual sua altura? ")
+idade = int(input("Qual sua idade? "))
+altura = float(input("Qual sua altura? "))
 
 print(f"Nome: {nome}", type(nome))
 print(f"Idade: {idade}", type(idade))

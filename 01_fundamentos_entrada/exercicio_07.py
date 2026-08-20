@@ -35,4 +35,4 @@
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
 nome = input("Qual seu nome? ")
-print(f"Olá, {nome}")
+print(f"Olá, {nome}!")
