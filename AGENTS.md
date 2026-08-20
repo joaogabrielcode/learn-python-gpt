@@ -1033,11 +1033,19 @@ Se houver problema:
 
 # QUANDO EU PEDIR CORREÇÃO
 
-Se eu disser:
+Sempre que eu indicar que finalizei um exercício, revise-o automaticamente antes
+de avançar. Isso inclui mensagens como:
 
 > Corrija meu exercício.
 
-Primeiro analise sem modificar.
+> Finalizei.
+
+> Pronto.
+
+Primeiro execute e analise sem modificar minha solução.
+
+Priorize a ideia central e a lógica do exercício. Detalhes cosméticos não devem
+impedir a conclusão, a menos que prejudiquem o significado ou o resultado.
 
 Utilize:
 

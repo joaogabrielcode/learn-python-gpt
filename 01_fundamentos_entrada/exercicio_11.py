@@ -37,3 +37,11 @@
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
+print("CALCULADOR DE HORAS")
+horas = int(input("Quantas horas? "))
+minutos = int(input("Quantos minutos? "))
+segundos = int(input("Quantos segundos? "))
+
+total = (horas * 60) * 60 + minutos * 60 + segundos
+
+print(f"Total: {total} segundos!")

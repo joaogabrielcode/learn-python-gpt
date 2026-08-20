@@ -15,8 +15,8 @@
 - [x] Exercício 07 — Saudação interativa
 - [x] Exercício 08 — Cadastro com conversões
 - [x] Exercício 09 — Código que preserva zeros
-- [ ] Exercício 10 — Calculadora de consumo
-- [ ] Exercício 11 — Tempo total em segundos
+- [x] Exercício 10 — Calculadora de consumo
+- [x] Exercício 11 — Tempo total em segundos
 - [ ] Exercício 12 — Conta compartilhada
 - [ ] Exercício 13 — Média ponderada
 - [ ] Exercício 14 — Orçamento de viagem

@@ -37,3 +37,9 @@
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
+kilometragem = float(input("Quantos KM percorreu? "))
+litros = float(input("Quantos Litros usou? "))
+
+media = kilometragem / litros
+
+print(f"Consumo médio: {media:.2f}")
