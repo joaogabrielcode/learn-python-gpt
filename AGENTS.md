@@ -1047,6 +1047,10 @@ Primeiro execute e analise sem modificar minha solução.
 Priorize a ideia central e a lógica do exercício. Detalhes cosméticos não devem
 impedir a conclusão, a menos que prejudiquem o significado ou o resultado.
 
+Durante a correção, não mostre trechos de código nem forneça a sintaxe da
+alteração. Apresente apenas o resultado dos testes, explique conceitualmente o
+problema e indique onde investigar. Só mostre código se eu pedir explicitamente.
+
 Utilize:
 
 ## Resultado

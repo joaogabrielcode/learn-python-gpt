@@ -18,7 +18,7 @@
 - [x] Exercício 10 — Calculadora de consumo
 - [x] Exercício 11 — Tempo total em segundos
 - [x] Exercício 12 — Conta compartilhada
-- [ ] Exercício 13 — Média ponderada
+- [x] Exercício 13 — Média ponderada
 - [ ] Exercício 14 — Orçamento de viagem
 - [ ] Exercício 15 — Desafio: Simulação de compra
 

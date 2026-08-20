@@ -36,3 +36,11 @@
 
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
+print("### CALCULADORA DE MEDIA PONDERADA ###")
+nota1 = float(input("Qual a primeira nota? "))
+nota2 = float(input("Qual a segunda nota? "))
+nota3 = float(input("Qual a terceira nota? "))
+
+calculo_media = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10
+
+print(f"Media Ponderada: {calculo_media:.1f}")
