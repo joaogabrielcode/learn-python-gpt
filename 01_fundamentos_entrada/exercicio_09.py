@@ -40,7 +40,7 @@
 # ESCREVA SUA SOLUÇÃO ABAIXO:
 
 codigo = input("Digite o codigo: ")
-quantidade = input("Digite a quantidade: ")
+quantidade = int(input("Digite a quantidade: "))
 
-print("Codigo: ", codigo)
-print("Quantidade: ", int(quantidade))
+print("Código:", codigo)
+print("Quantidade:", quantidade)

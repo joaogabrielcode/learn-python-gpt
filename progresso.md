@@ -12,9 +12,9 @@
 - [x] Exercício 04 — Troca de valores
 - [x] Exercício 05 — Estado de uma entrega
 - [x] Exercício 06 — Uma variável, tipos diferentes
-- [ ] Exercício 07 — Saudação interativa
-- [ ] Exercício 08 — Cadastro com conversões
-- [ ] Exercício 09 — Código que preserva zeros
+- [x] Exercício 07 — Saudação interativa
+- [x] Exercício 08 — Cadastro com conversões
+- [x] Exercício 09 — Código que preserva zeros
 - [ ] Exercício 10 — Calculadora de consumo
 - [ ] Exercício 11 — Tempo total em segundos
 - [ ] Exercício 12 — Conta compartilhada
@@ -47,4 +47,3 @@ Nenhum erro recorrente confirmado.
 
 As soluções dos seis primeiros exercícios da trilha anterior foram
 preservadas integralmente no novo Módulo 01.
-

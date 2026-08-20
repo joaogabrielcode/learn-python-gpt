@@ -1177,11 +1177,12 @@ Ele deve registrar:
 * conceitos para revisar;
 * erros recorrentes.
 
-Não atualize a cada pequena interação.
+Não atualize a cada pequena interação que não altere o estado da trilha.
 
 Atualize quando:
 
 * eu pedir;
+* um exercício for revisado e considerado concluído;
 * concluir um módulo;
 * concluir checkpoint;
 * concluir projeto;
